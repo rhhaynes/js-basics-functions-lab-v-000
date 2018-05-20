@@ -1,3 +1,3 @@
 function distanceFromHqInBlocks(){
-  return pickupLocation - 42
+  return Math.abs(pickupLocation - 42);
 }
