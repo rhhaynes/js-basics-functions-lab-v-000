@@ -2,8 +2,9 @@ function distanceFromHqInBlocks(pickupLocation){
   return Math.abs(pickupLocation - 42);
 }
 
-function distanceFromHqInFeet(){
-  return distanceFromHqInBlocks * 264;
+function distanceFromHqInFeet(pickupLocation){
+  return distanceFromHqInBlocks(pickupLocation) * 264;
 }
 
-function 
+function calculatesFarePrice(){
+}
